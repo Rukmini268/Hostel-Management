@@ -97,6 +97,7 @@ public class Hostel{
         BufferedWriter out = null;
         Scanner sc = new Scanner(System.in);
         System.out.println("Hostel Management \n Enter the record of students! \n Type exit to end!");
+        System.out.println("Hi");
         String name  = typeName();
         
         while(!name.equals("exit")){
